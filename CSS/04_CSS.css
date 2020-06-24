@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*元素（标签）选择器*/
+p{
+    color: skyblue;
+}
+
+.box{
+    color: blue;
+}
+
+.box1{
+    width: 200px;
+    height: 300px;
+    background-color: brown;
+}
+.box2{
+    border: 10px black solid;
+}
