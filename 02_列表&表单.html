@@ -1,0 +1,116 @@
+<!DOCTYPE html> <!--文档声明-->
+<html lang="en"><!--根标签-->
+<head><!--文件头部-->
+    <meta charset="UTF-8"><!--字符集编码格式-->
+    <title>Title</title><!--网页标题-->
+</head>
+<body>
+    <ol type="A" start="3"> <!--Type为列表属性-->
+        <li>把冰箱门打开</li>
+        <li>把大象放冰箱里</li>
+        <li>把冰箱门关上</li>
+    </ol>
+
+    <ul type="circle">
+        <li>把冰箱门打开</li>
+            <ul>
+                <li>伸手</li>
+                <li>抓门</li>
+            </ul>
+        <li>把大象放冰箱里</li>
+        <li>把冰箱门关上</li>
+    </ul>
+
+<!--自定义列表-->
+    <dl>
+        <dt>豆腐脑</dt>
+        <dd>肯定是咸豆腐脑好吃啊</dd>
+    </dl>
+
+    <!--表单-->
+    <form action="" method="">
+        <!--文本输入框-->
+        <input type="text" placeholder="请输入姓名">
+
+        <!--密码框-->
+        <input type="password" placeholder="请输入密码">
+
+        <!--多选-->
+        <input type="checkbox">榴莲
+        <input type="checkbox">荔枝
+        <input type="checkbox">草莓
+        <input type="checkbox">桃子
+        <input type="checkbox">波罗蜜
+
+        <!--单选--> name：打组
+        <input type="radio" name="sex">男
+        <input type="radio" name="sex">女
+
+        <!--上传-->
+        <br>
+        <input type="file" name="">
+
+        <!--提交-->
+        <br>
+        <input type="submit" name="">
+
+        <!--重置-->
+        <br>
+        <input type="reset" name="">
+
+        <!--下拉菜单-->
+        <br>
+        <select>
+            <option disabled="disabled"> 请选择你的城市</option><!--disabled 是禁用的意思-->
+            <option> 北京</option>
+            <option> 天津</option>
+            <option> 乌鲁木齐</option>
+            <option> 宁波</option>
+            <option> 杭州</option>
+        </select>
+
+        <!--多行文本框-->
+        <br>
+        <!--rows：行 cols：列-->
+        <textarea rows="" cols="">
+        </textarea>
+    </form>
+
+    <table border="" cellspacing="" cellpadding="">
+        <tr><th>大鹏欢迎大家</th></tr>
+        <tr>
+            <td>爱你们</td>
+            <td>超爱你们</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+学习笔记部分
+列表分类：
+
+    有序列表
+    ol>li
+        Type为列表属性
+        start为列表的起始标号
+        li*3后按Tab可以生成三个
+        注意：ol和li必须组合出现，中间不许出现其他标签，li标签里可以有其标签
+
+    无序列表
+    ul>li 不分先后
+        Type为列表属性
+        值	描述
+        disc	默认值|实心圆。
+        circle	空心圆。
+        square	实心方块。
+        注意：ul和li必须组合出现，中间不许出现其他标签，li标签里可以有其它标签，可以是ul>li
+
+    自定义列表
+        dl：自定义列表
+        dt：列表的内容
+        dd：对内容的解释
+
+表单：
+    form：表单声明
+        action 表单提交的位置
+        method：提交数据的方式
