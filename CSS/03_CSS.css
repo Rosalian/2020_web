@@ -1,0 +1,11 @@
+span{
+    color: skyblue;
+}
+div{
+    width: 100px;
+    /*浏览器是从上往下覆盖执行的*/
+    /*width: 500px;*/
+    height: 300px;
+    background-color: skyblue;
+    border: 6px black solid;/*边框的写法*/
+}
