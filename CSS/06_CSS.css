@@ -3,3 +3,20 @@
     padding: 0;
     margin: 0;
 }
+
+
+.box1{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    padding-top: 10px;
+    padding-left: 30px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.box2{
+    width: 100px;
+    height: 200px;
+    background-color: coral;
+}

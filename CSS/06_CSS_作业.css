@@ -1,0 +1,46 @@
+/*通配符*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.work_container{
+    background-color: #f8f8f8;
+}
+.tit_box{
+    width: 1200px;
+    /*加border方便观察*/
+    border: 1px red solid;
+    margin: 0 auto;
+    text-align: center;
+}
+.tit_box h2{
+    font-size: 36px;
+    border-bottom: 2px solid blue;
+    display: inline;
+    padding-bottom: 32px;
+
+}
+.img_list{
+    /*解决高度塌陷*/
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 122px;
+}
+.img_list .iteam{
+    float: left;
+}
+
+.iteam img{
+    width: 380px;
+    height: 300px;
+    display: block;
+}
+
+.img_list .iteam1{
+    margin: 0px 30px 0 30px;
+}
+
+.img_list .iteam2{
+    /*这里margin就有问题*/
+    padding: 30px 0px 30px 0px;
+}
