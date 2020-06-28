@@ -1,0 +1,63 @@
+/*通配符*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*div{*/
+/*    !*这里添加了左浮动属性*!*/
+/*    float:right;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: green;*/
+/*    border: 2px red solid;*/
+/*}*/
+
+/*.box{*/
+/*    float: left;*/
+/*}*/
+
+.a1{
+    width: 200px;
+    height: 200px;
+    border: 2px red solid;
+    float: left;
+}
+.box3{
+    /*overflow: hidden;*/
+}
+.bother{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    border: 2px rgba(8, 175, 175, 0.81) solid;
+}
+
+/*div{*/
+/*    background-color: yellow;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    border: blue 1px solid;*/
+/*}*/
+
+.dw5{
+    width: 50px ;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.guding{
+    width: 50px ;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    top: 200px;
+    left: 500px;
+}
+
+body{
+    height: 3000px;
+}

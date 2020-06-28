@@ -3,8 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>浮动和定位</title>
+    <link rel="stylesheet" href="CSS/05_CSS.css">
 </head>
 <body>
+<!--    <div>模块1</div>-->
+<!--    <div class="box2">模块3</div>-->
+<!--    <div>模块2</div>-->
 
+<!--<div class="box3">-->
+<!--    <div class="a1">1</div>-->
+<!--    <div class="a1">2</div>-->
+<!--    <div style="clear: both"></div>-->
+<!--</div>-->
+<!--<div class="bother">-->
+<!--    这里出现了高度塌陷！！-->
+<!--</div>-->
+
+<!--<div class="dw1">模块1</div>-->
+<!--<div class="dw2">模块2</div>-->
+<!--<div class="dw3">模块3</div>-->
+
+<div class="dw4">
+    <div class="dw5">
+
+    </div>
+</div>
+
+<div class="guding">
+
+</div>
+</div>
 </body>
 </html>
+
+
+  浮动
+    1.父级元素大小如果没设置，他会根据子元素的大小
+    2.如果子元素设置了浮点，父元素就会产生高度塌陷
+        解决方法：
+            1.给父级固定高度；适用于高度不变的模块，有局限性
+            2.给父级书写溢出隐藏属性； overflow:hidden
+            3.在最后一个设置浮动属性的子元素下方书写一个空的dⅳ标签，
+            添加一个行內样式clea属性清除浮动；可以是clear: both
+
+  定位
+    1.相对定位：参照自身位置
+    position: relative;
+    方向：上top；右right;下bottom；左left
+
+    2.绝对定位：参照有定位设置的第一级父元素位置
+    position: absolute;
+    方向：上top；右right;下bottom；左left
+    口诀：父相子绝
+        子元素添加绝对定位，就给父元素添加相对定位
+
+    3.固定定位：相对于浏览器的位置
+    position: absolute;
+    方向：上top；右right;下bottom；左left
