@@ -1,0 +1,44 @@
+/*通配符*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.p1{
+    width: 200px;
+    height: 200px;
+    color: blue;
+
+    border: red 2px solid;
+    /*字体大小*/
+    font-size: 16px;
+    /*这里也可以实现上下居中*/
+    line-height: 1.5em;
+    /*这里em就是设置的字体大小*/
+    /*谷歌浏览器最小字号12px*/
+    letter-spacing: 2px;
+    text-decoration: line-through;
+    text-indent: 2em;
+}
+.p2{
+    color: rgba(246, 48, 48, 0.85);
+}
+a{
+    text-decoration: none;
+}
+.p5{
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    text-align: center;
+    /*外部引入字体*/
+    color: #d20d28;
+    background-image: linear-gradient(#708ca5, #cb913b);
+    font-weight: bolder;
+    font-family: 民国报纸字体;
+}
+.p6{
+    font-size: 16px;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
